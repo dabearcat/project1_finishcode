@@ -1,0 +1,170 @@
+body {
+    background-color: #F0F0F0;
+}
+.head-page {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    color: #3E7735;
+}
+
+.head-page h1 {
+    font-size: 2.5rem;
+}
+
+.img-icon {
+    height: 20px;
+    padding: 3px;
+}
+#main-question {
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #E4F8EA;
+}
+
+#main-question h2 {
+    font-size: 3rem;
+}
+
+.input-reply {
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.response-area {
+    padding: 20px;
+    border-radius: 20px;
+}
+.tablinks-myself {
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-image: url('imgs/girl.png');
+    background-repeat:no-repeat;
+    border: none;
+}
+
+.tablinks-friend1 {
+    margin: 10px;
+    margin-bottom:5px;
+    height: 83px;
+    width: 83px;
+    background-image: url('imgs/boy.png');
+    background-repeat:no-repeat;
+    border: none;
+    background-size: contain;
+
+}
+.tablinks-friend2 {
+    margin: 5px 5px 0px 0px;
+    height: 30px;
+    width: 30px;
+    background-image: url('imgs/man\ \(1\).png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    border: none;
+    padding: 0px;
+    float: right;
+    opacity: .5;
+}
+.tablinks-friend3 {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-image: url('imgs/man.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    border: none;
+    float: right;
+    opacity: .5;
+}
+
+.tab p {
+    margin-top:-10px;
+    margin-left:20px;
+    margin-bottom:5px;
+}
+
+.tablinks-friend3:focus {
+    background-color: white;
+    opacity: 1;
+}
+.tablinks-friend2:focus {
+    background-color: white;
+    opacity: 1;
+}
+.tablinks-friend1:focus {
+    background-color: white;
+    opacity: 1;
+}
+
+.tabbox p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.suggestion {
+    padding-top: 20px;
+}
+
+.submit-button{
+    background-color: #3EB567;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.circle {
+    background-color:#fff;
+    border: 20px #4CDF3D; 
+    border-block-start-color: #D6F6D3;
+    border-block-end-color: #0D5706;
+    border-style: dotted;   
+    height:80vh;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 80vh;
+    margin: 0 auto;
+}
+
+
+#circ-text {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30vh;
+}
+
+#carrot {
+    padding-left: 45%;
+    height: 100px;
+    width: 100px;
+    padding: absolute;
+    animation: MoveUpDown 2s linear infinite;
+    left: 0;
+ }
+
+ @keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 70px;
+    }
+    }
+
+.friend {
+    background-color: #E3E3E3;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
